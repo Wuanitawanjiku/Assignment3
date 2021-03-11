@@ -1,0 +1,34 @@
+fun(){
+    composed()
+    var mimi =info("Wuanita","19")
+    println(mimi)
+    var x=length("Wanjiku")
+    println(x)
+    var confirm = myself("Mercy")
+    println(confirm)
+
+}
+fun comppsed(){
+    var name = "akirachix"
+    println(name[0])
+    println(name[2])
+    println(name[3])
+}
+fun info(name: String, age:String){
+var me=("Hi,my name is $ and I am $ years old )
+        return(me)
+}
+fun length(a:String): Int{
+    var word = word.length
+    return(word)
+}
+fun myself(name:String){
+    if (name=="Brenda"){
+        println("That's me!")
+}
+    else
+        println("I don't know who that is")
+}
+
+
+
